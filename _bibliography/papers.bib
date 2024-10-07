@@ -58,6 +58,7 @@
   abstract={In incremental learning, replaying stored samples from previous tasks together with current task samples is one of the most efficient approaches to address catastrophic forgetting. However, unlike incremental classification, image replay has not been successfully applied to incremental object detection (IOD). In this paper, we identify the overlooked problem of foreground shift as the main reason for this. Foreground shift only occurs when replaying images of previous tasks and refers to the fact that their background might contain foreground objects of the current task. To overcome this problem, a novel and efficient Augmented Box Replay (ABR) method is developed that only stores and replays foreground objects and thereby circumvents the foreground shift problem. In addition, we propose an innovative Attentive RoI Distillation loss that uses spatial attention from region-of-interest (RoI) features to constrain current model to focus on the most important information from old model. ABR significantly reduces forgetting of previous classes while maintaining high plasticity in current classes. Moreover, it considerably reduces the storage requirements when compared to standard image replay. Comprehensive experiments on Pascal-VOC and COCO datasets support the state-of-the-art performance of our model.},
   abbr={ICCV 2023},
   arxiv={2307.12427},
+  code={https://github.com/YuyangSunshine/ABR_IOD},
   preview={iccv23.png},
   year={2023}
 }
@@ -82,6 +83,7 @@
   abstract={The size of an individual cell type, such as a red blood cell, does not vary much among humans. We use this knowledge as a prior for classifying and detecting cells in images with only a few ground truth bounding box annotations, while most of the cells are annotated with points. This setting leads to weakly semi-supervised learning. We propose re- placing points with either stochastic (ST) boxes or bounding box predictions during the training process. The proposed “mean-IOU” ST box maximizes the overlap with all the boxes belonging to the sample space with a class-specific ap- proximated prior probability distribution of bounding boxes. Our method trains with both box- and point-labelled im- ages in conjunction, unlike the existing methods, which train first with box- and then point-labelled images. In the most challenging setting, when only 5% images are box-labelled, quantitative experiments on a urine dataset show that our one- stage method outperforms two-stage methods by 5.56 mAP. Furthermore, we suggest an approach that partially answers “how many box-labelled annotations are necessary?” before training a machine learning model.},
   arxiv={2211.06104},
   preview={isbi23.png},
+  code={https://github.com/hariagr/bbox_prior},
   year={2023}
 }
 
@@ -90,6 +92,7 @@
   author={Shekhawat, Krishnendra and Jain, Rahil N and Bisht, Sumit and Kondaveeti, Aishwarya and Goswami, Dipam},
   journal={AI EDAM},
   abbr={AI EDAM, Cambridge University Press},
+  html={https://www.cambridge.org/core/journals/ai-edam/article/abs/graphbased-approach-for-enumerating-floorplans-based-on-users-specifications/C1632000D36BD0D0C1FA9E44584F1F00},
   year={2021},
   preview={floor-plan.png},
   publisher={Cambridge University Press}
@@ -98,8 +101,9 @@
 @article{goswami2021urine,
   title={Urine microscopic image dataset},
   author={Goswami, Dipam and Aggrawal, Hari Om and Gupta, Rajiv and Agarwal, Vinti},
-  journal={arXiv preprint arXiv:2111.10374},
+  journal={arXiv},
   abbr={arxiv},
+  arxiv={2111.10374},
   preview={cells.png},
   code={https://github.com/dipamgoswami/UMID-Urine-Microscopic-Image-Dataset},
   year={2021}
