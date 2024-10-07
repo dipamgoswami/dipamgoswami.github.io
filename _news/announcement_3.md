@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-06-13
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Gave an invited talk at the [GMUM](https://gmum.net) seminar at the Jagiellonian University in Krakow. Also presented my research at the Data Science Summit (Machine Learning Edition) 2024 in Warsaw.
