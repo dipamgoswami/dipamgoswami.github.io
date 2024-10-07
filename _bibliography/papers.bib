@@ -1,115 +1,80 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{gomezexemplar,
+  title={Exemplar-free Continual Representation Learning via Learnable Drift Compensation},
+  author={Gomez-Villa, Alex and Goswami, Dipam and Wang, Kai and Bagdanov, Andrew D and Twardowski, Bartlomiej and van de Weijer, Joost},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@inproceedings{goswami2024calibrating,
+  title={Calibrating Higher-Order Statistics for Few-Shot Class-Incremental Learning with Pre-trained Vision Transformers},
+  author={Goswami, Dipam and Twardowski, Bart{\l}omiej and Van De Weijer, Joost},
+  booktitle={Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2024}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{goswami2024resurrecting,
+  title={Resurrecting Old Classes with New Data for Exemplar-Free Continual Learning},
+  author={Goswami, Dipam and Soutif-Cormerais, Albin and Liu, Yuyang and Kamath, Sandesh and Twardowski, Bart{\l}omiej and van de Weijer, Joost},
+  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  abstract={Continual learning methods are known to suffer from catastrophic forgetting, a phenomenon that is particularly hard to counter for methods that do not store exemplars of previous tasks. Therefore, to reduce potential drift in the feature extractor, existing exemplar-free methods are typ- ically evaluated in settings where the first task is signif- icantly larger than subsequent tasks. Their performance drops drastically in more challenging settings starting with a smaller first task. To address this problem of feature drift estimation for exemplar-free methods, we propose to adver- sarially perturb the current samples such that their embed- dings are close to the old class prototypes in the old model embedding space. We then estimate the drift in the embed- ding space from the old to the new model using the per- turbed images and compensate the prototypes accordingly. We exploit the fact that adversarial samples are transferable from the old to the new feature space in a continual learning setting. The generation of these images is simple and com- putationally cheap. We demonstrate in our experiments that the proposed approach better tracks the movement of proto- types in embedding space and outperforms existing meth- ods on several standard continual learning benchmarks as well as on fine-grained datasets.},
+  abbr={CVPR 2024},
+  arxiv={2405.19074},
+  code={https://github.com/dipamgoswami/ADC},
+  year={2024}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{goswami2023fecam,
+    title={Fe{CAM}: Exploiting the Heterogeneity of Class Distributions in Exemplar-Free Continual Learning},
+    author={Dipam Goswami and Yuyang Liu and Bart{\l}omiej Twardowski and Joost van de Weijer},
+    booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+    year={2023}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{liu2023augmented,
+  title={Augmented Box Replay: Overcoming Foreground Shift for Incremental Object Detection},
+  author={Liu, Yuyang and Cong, Yang and Goswami, Dipam and Liu, Xialei and van de Weijer, Joost},
+  booktitle={International Conference on Computer Vision (ICCV)},
+  year={2023}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{goswami2023attribution,
+  title={Attribution-aware weight transfer: A warm-start initialization for class-incremental semantic segmentation},
+  author={Goswami, Dipam and Schuster, Ren{\'e} and van de Weijer, Joost and Stricker, Didier},
+  booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{aggrawal2023bounding,
+  title={Bounding Box Priors for Cell Detection with Point Annotations},
+  author={Aggrawal, Hari Om and Goswami, Dipam and Agarwal, Vinti},
+  booktitle={IEEE 20th International Symposium on Biomedical Imaging (ISBI)},
+  year={2023}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{dey2022deep,
+  title={Deep learning-based defect classification and detection in SEM images},
+  author={Dey, Bappaditya and Goswami, Dipam and Halder, Sandip and Khalil, Kasem and Leray, Philippe and Bayoumi, Magdy A},
+  booktitle={Metrology, Inspection, and Process Control XXXVI},
+  year={2022},
+  organization={SPIE}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{shekhawat2021graph,
+  title={Graph-based approach for enumerating floorplans based on users specifications},
+  author={Shekhawat, Krishnendra and Jain, Rahil N and Bisht, Sumit and Kondaveeti, Aishwarya and Goswami, Dipam},
+  journal={AI EDAM},
+  year={2021},
+  publisher={Cambridge University Press}
+}
+
+@article{goswami2021urine,
+  title={Urine microscopic image dataset},
+  author={Goswami, Dipam and Aggrawal, Hari Om and Gupta, Rajiv and Agarwal, Vinti},
+  journal={arXiv preprint arXiv:2111.10374},
+  year={2021}
 }
