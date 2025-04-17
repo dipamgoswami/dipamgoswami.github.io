@@ -17,4 +17,4 @@ I am a PhD Student at the [Computer Vision Center](https://www.cvc.uab.es), Univ
 
 I am mostly working on Continual Learning problems. Recently, I am also exploring Federated Learning, Information Retrieval, Large Language Models and Vision-Language Models. I have published research papers on Continual Learning for Image Classification, Few-Shot Continual Learning, Incremental Object Detection and Semantic Segmentation.
 
-I serve as reviewer for several conferences (ICML, ICLR, AISTATS, NeurIPS, CVPR, ECCV, WACV, BMVC) and journals (IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Image Processing). I have been recognized as one of the outstanding/top reviewers in BMVC 2024 and NeurIPS 2024.
+I serve as reviewer for several conferences (ICML, ICLR, AISTATS, NeurIPS, CoLLAs, CVPR, ICCV, ECCV, WACV, BMVC) and journals (Transactions on Machine Learning Research, IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Image Processing). I have been recognized as one of the outstanding/top reviewers in BMVC 2024 and NeurIPS 2024.
