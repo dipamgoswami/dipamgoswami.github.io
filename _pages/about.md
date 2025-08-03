@@ -17,4 +17,4 @@ I am a PhD Student at the [Computer Vision Center](https://www.cvc.uab.es), Univ
 
 I am mostly working on Continual Learning. I did some works on Federated Learning and Information Retrieval. Recently, I am also exploring Vision-Language Models and Generative AI with Diffusion Models.
 
-I serve as reviewer for several conferences (ICML, ICLR, AISTATS, NeurIPS, CoLLAs, CVPR, ICCV, ECCV, WACV, BMVC) and journals (IEEE TPAMI, TMLR, IEEE TNNLS, IEEE TIP). I have been recognized as one of the outstanding/top reviewers in BMVC 2024 and NeurIPS 2024.
+I serve as reviewer for several conferences (ICML, ICLR, AISTATS, NeurIPS, CoLLAs, CVPR, ICCV, ECCV, WACV, BMVC) and journals (IEEE TPAMI, IJCV, TMLR, IEEE TNNLS, IEEE TIP). I have been recognized as one of the outstanding/top reviewers in BMVC 2024 and NeurIPS 2024.
