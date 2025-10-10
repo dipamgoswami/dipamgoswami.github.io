@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended [CoLLAS](https://lifelong-ml.cc) at the University of Pennsylvania in Philadelphia and presented the poster of our [paper](https://arxiv.org/pdf/2506.00037) in the main conference.
+Attended [CoLLAs](https://lifelong-ml.cc) at the University of Pennsylvania in Philadelphia and presented the poster of our [paper](https://arxiv.org/pdf/2506.00037) in the main conference.
