@@ -1,5 +1,20 @@
 ---
 ---
+
+@inproceedings{goswami2025covariances,
+  title={Covariances for Free: Exploiting Mean Distributions for Training-free Federated Learning},
+  author={Goswami, Dipam  and Magistri, Simone and Wang, Kai and Twardowski, Bartłomiej and  Bagdanov, Andrew D and Van De Weijer, Joost},
+  booktitle={arxiv},
+  arxiv={2412.14326},
+  abbr={NeurIPS 2025},
+  preview={fedcof.png},
+  code={https://github.com/dipamgoswami/FedCOF},
+  abstract={Using pre-trained models has been found to reduce the effect of data heterogeneity and speed up federated learning algorithms. Recent works have explored training-free methods using first- and second-order statistics to aggregate local client data distributions at the server and achieve high performance without any training. In this work, we propose a training-free method based on an unbiased estimator of class covariance matrices which only uses first-order statistics in the form of class means communicated by clients to the server. We show how these estimated class covariances can be used to initialize the global classifier, thus exploiting the covariances without actually sharing them. We also show that using only within-class covariances results in a better classifier initialization. Our approach improves performance in the range of 4-26\% with exactly the same communication cost when compared to methods sharing only class means and achieves performance competitive or superior to methods sharing second-order statistics with dramatically less communication overhead. The proposed method is much more communication-efficient than federated prompt-tuning methods and still outperforms them. Finally, using our method to initialize classifiers and then performing federated fine-tuning or linear probing again yields better performance.},
+  year={2025},
+  selected={true}
+}
+
+
 @inproceedings{goswami2025query,
   title={Query Drift Compensation: Enabling Compatibility in Continual Learning of Retrieval Embedding Models},
   author={Goswami, Dipam and Wang, Liying and Twardowski, Bartłomiej and Van De Weijer, Joost},
@@ -8,21 +23,9 @@
   abbr={CoLLAs 2025},
   preview={qdc.png},
   code={https://github.com/dipamgoswami/QDC},
-  abstract={Text embedding models enable semantic search, powering several NLP applications like Retrieval Augmented Generation by efficient information retrieval (IR). However, text embedding models are commonly studied in scenarios where the training data is static, thus limiting its applications to dy- namic scenarios where new training data emerges over time. IR methods generally encode a huge corpus of documents to low-dimensional embeddings and store them in a database index. During re- trieval, a semantic search over the corpus is performed and the document whose embedding is most similar to the query embedding is returned. When updating an embedding model with new training data, using the already indexed corpus is suboptimal due to the non-compatibility issue, since the model which was used to obtain the embeddings of the corpus has changed. While re-indexing of old corpus documents using the updated model enables compatibility, it requires much higher com- putation and time. Thus, it is critical to study how the already indexed corpus can still be effectively used without the need of re-indexing. In this work, we establish a continual learning benchmark with large-scale datasets and continually train dense retrieval embedding models on query-document pairs from new datasets in each task and observe forgetting on old tasks due to significant drift of embed- dings. We employ embedding distillation on both query and document embeddings to maintain stability and propose a novel query drift compensation method during retrieval to project new model query embeddings to the old embedding space. This enables compatibility with previously indexed corpus embeddings extracted using the old model and thus reduces the forgetting. We show that the proposed method significantly improves performance without any re-indexing.},
+  abstract={Text embedding models enable semantic search, powering several NLP applications like Retrieval Augmented Generation by efficient information retrieval (IR). However, text embedding models are commonly studied in scenarios where the training data is static, thus limiting its applications to dynamic scenarios where new training data emerges over time. IR methods generally encode a huge corpus of documents to low-dimensional embeddings and store them in a database index. During retrieval, a semantic search over the corpus is performed and the document whose embedding is most similar to the query embedding is returned. When updating an embedding model with new training data, using the already indexed corpus is suboptimal due to the non-compatibility issue, since the model which was used to obtain the embeddings of the corpus has changed. While re-indexing of old corpus documents using the updated model enables compatibility, it requires much higher com- putation and time. Thus, it is critical to study how the already indexed corpus can still be effectively used without the need of re-indexing. In this work, we establish a continual learning benchmark with large-scale datasets and continually train dense retrieval embedding models on query-document pairs from new datasets in each task and observe forgetting on old tasks due to significant drift of embeddings. We employ embedding distillation on both query and document embeddings to maintain stability and propose a novel query drift compensation method during retrieval to project new model query embeddings to the old embedding space. This enables compatibility with previously indexed corpus embeddings extracted using the old model and thus reduces the forgetting. We show that the proposed method significantly improves performance without any re-indexing.},
   year={2025},
   selected={true}
-}
-
-@inproceedings{goswami2024covariances,
-  title={Covariances for Free: Exploiting Mean Distributions for Federated Learning with Pre-Trained Models},
-  author={Goswami, Dipam  and Magistri, Simone and Wang, Kai and Twardowski, Bartłomiej and  Bagdanov, Andrew D and Van De Weijer, Joost},
-  booktitle={arxiv},
-  arxiv={2412.14326},
-  abbr={Preprint. Under review.},
-  preview={fedcof.png},
-  code={https://github.com/dipamgoswami/FedCOF},
-  abstract={Using pre-trained models has been found to reduce the effect of data heterogeneity and speed up federated learning algorithms. Recent works have investigated the use of first-order statistics and second-order statistics to aggregate local client data distributions at the server and achieve very high performance without any training. In this work we propose a training-free method based on an unbiased estimator of class covariance matrices. Our method, which only uses first-order statistics in the form of class means communicated by clients to the server, incurs only a fraction of the communication costs required by methods based on communicating second-order statistics. We show how these estimated class covariances can be used to initialize a linear classifier, thus exploiting the covariances without actually sharing them. When compared to state-of-the-art methods which also share only class means, our approach improves performance in the range of 4-26\% with exactly the same communication cost. Moreover, our method achieves performance competitive or superior to sharing second-order statistics with dramatically less communication overhead. Finally, using our method to initialize classifiers and then performing federated fine-tuning yields better and faster convergence.},
-  year={2024}
 }
 
 @inproceedings{gomezexemplar,
