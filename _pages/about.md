@@ -52,7 +52,7 @@ I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at t
 - Invited talk on **Understanding the Embedding Space in Continual, Federated and Multimodal Learning** at the [MICC](https://www.micc.unifi.it) seminar, University of Florence (2026).
 - Invited talks on **Exemplar‑Free Continual Learning** at the [GMUM](https://gmum.net) seminar, Jagiellonian University, Kraków (2024); at the [Data Science Summit](https://ml.dssconf.pl/), Warsaw (2024), at the CVML reading sessions at the University of Barcelona (2024) and at the [Deep Learning Barcelona Symposium](https://sites.google.com/view/dlbcn2023/) (2023).
 - Top reviewer at NeurIPS 2024 and outstanding reviewer at BMVC 2024.
-- - Innovation award (team "Continual Learners") at the Continual Test-time Adaptation challenge, [Visual Continual Learning Workshop](https://wvcl.vis.xyz/), ICCV 2023, where I also gave an oral presentation.
+- Innovation award (team "Continual Learners") at the Continual Test-time Adaptation challenge, [Visual Continual Learning Workshop](https://wvcl.vis.xyz/), ICCV 2023, where I also gave an oral presentation.
 
 #### Community service
 
