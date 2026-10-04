@@ -23,7 +23,7 @@ My recent works focuses on multimodal and generative models:
   - Improving intra-modal alignment in CLIP by by decomposing CLIP's projection layers ([IsoCLIP - CVPR 2026](https://arxiv.org/abs/2603.19862)).
   - Improving few-shot image classification using cross-modal prototypes exploiting a task-semantic image subspace ([Project and Mix - Preprint](https://arxiv.org/abs/2603.24528)).
 - **Continual Learning with VLMs:** a survey and taxonomy beyond forgetting ([Preprint](https://arxiv.org/pdf/2508.04227?)) and exploiting the semantic knowledge of pre-trained text-encoders ([Preprint](https://arxiv.org/pdf/2408.01076)).
-- **Data Attribution with Diffusion Models**: mirrored unlearning approach for training data attribution, i.e. tracing which training data influences a generated output ([MUCS - NeurIPS 2026](https://arxiv.org/pdf/2605.17938)).
+- **Data Attribution with Diffusion Models:** mirrored unlearning approach for training data attribution, i.e. tracing which training data influences a generated output ([MUCS - NeurIPS 2026](https://arxiv.org/pdf/2605.17938)).
 
 #### PhD research
 
@@ -33,11 +33,11 @@ My PhD focused on how models learn when data is not available all at once: arriv
 - **Federated Learning:** training-free, communication-efficient methods built on pre-trained models ([FedCOF - NeurIPS 2025](https://arxiv.org/pdf/2412.14326)).
 - **Information Retrieval:** continual learning of dense retrieval embedding models that stay compatible with existing embedding indexes ([QDC - CoLLAs 2025](https://arxiv.org/pdf/2506.00037)).
 
-Before starting my PhD, I worked on continual learning for object detection ([ICCV 2023](https://arxiv.org/pdf/2307.12427)) and semantic segmentation ([WACV 2023](https://arxiv.org/pdf/2210.07207)), defect detection in SEM images ([SPIE Advanced Lithography 2022](https://arxiv.org/pdf/2206.13505)), cell detection from urine microscopic images ([ISBI 2023](https://arxiv.org/pdf/2211.06104), [UMID dataset](https://arxiv.org/pdf/2111.10374)) and graph-based approaches for generation of dimensioned floorpans ([AI EDAM 2021](https://www.cambridge.org/core/journals/ai-edam/article/abs/graphbased-approach-for-enumerating-floorplans-based-on-users-specifications/C1632000D36BD0D0C1FA9E44584F1F00), [SCCE 2024](https://www.jsoftcivil.com/article_196433.html)).
+Before starting my PhD, I worked on continual learning for object detection ([ICCV 2023](https://arxiv.org/pdf/2307.12427)) and semantic segmentation ([WACV 2023](https://arxiv.org/pdf/2210.07207)), defect detection in SEM images ([SPIE Advanced Lithography 2022](https://arxiv.org/pdf/2206.13505)), cell detection from urine microscopic images ([ISBI 2023](https://arxiv.org/pdf/2211.06104), [UMID dataset](https://arxiv.org/pdf/2111.10374)) and graph-based approaches for generation of dimensioned floorplans ([AI EDAM 2021](https://www.cambridge.org/core/journals/ai-edam/article/abs/graphbased-approach-for-enumerating-floorplans-based-on-users-specifications/C1632000D36BD0D0C1FA9E44584F1F00), [SCCE 2024](https://www.jsoftcivil.com/article_196433.html)).
 
 #### Background
 
-I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at the [Computer Vision Center](https://www.cvc.uab.es/), Universitat Autònoma de Barcelona, supervised by [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en) and [Bartłomiej Twardowski](https://scholar.google.com/citations?user=8yywECgAAAAJ&hl=en), with the thesis *Understanding the Embedding Space in Continual and Federated Learning*. Before that, I received a B.E. in Computer Science and an M.Sc. in Mathematics from [BITS Pilani](https://www.bits-pilani.ac.in/pilani/), India, in 2022.
+I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at the [Computer Vision Center](https://www.cvc.uab.es/), Universitat Autònoma de Barcelona, supervised by [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en) and [Bartłomiej Twardowski](https://scholar.google.com/citations?user=8yywECgAAAAJ&hl=en), with the thesis *Understanding the Embedding Space in Continual and Federated Learning*. Before that, I received a B.E. in Computer Science and an M.Sc. in Mathematics from [BITS Pilani](https://www.bits-pilani.ac.in/pilani/), India in 2022.
 
 
 #### Research visits and industry experience
@@ -56,7 +56,8 @@ I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at t
 
 #### Community service
 
-I served as a reviewer for ICML, ICLR, NeurIPS, AISTATS, CoLLAs, CVPR, ICCV, ECCV, WACV and BMVC, and for journals including IEEE TPAMI, IJCV, TMLR, IEEE TNNLS and IEEE TIP. I also co-organize the [CoLLAs Seminars](https://lifelong-ml.cc/seminar), a monthly online seminar series on lifelong learning launched in May 2026.
+- I served as a reviewer for ICML, ICLR, NeurIPS, AISTATS, CoLLAs, CVPR, ICCV, ECCV, WACV and BMVC, and for journals including IEEE TPAMI, IJCV, TMLR, IEEE TNNLS and IEEE TIP.
+- I co-organize the [CoLLAs Seminars](https://lifelong-ml.cc/seminar), a monthly online seminar series on lifelong learning launched in May 2026.
 
 
 **I am open to postdoctoral and research scientist positions starting in January 2027. Feel free to [reach out](mailto:dgoswami@cvc.uab.es).**
