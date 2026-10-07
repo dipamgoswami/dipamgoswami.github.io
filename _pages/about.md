@@ -20,7 +20,7 @@ I am a postdoctoral researcher in the [Learning and Machine Perception (LAMP)](h
 My recent works focuses on multimodal and generative models: 
 
 - **Vision-Language Models:** studying cross-modal alignment in contrastive VLMs and exploring training-free approaches.
-  - Improving intra-modal alignment in CLIP by by decomposing CLIP's projection layers ([IsoCLIP - CVPR 2026](https://arxiv.org/abs/2603.19862)).
+  - Improving intra-modal alignment in CLIP by decomposing CLIP's projection layers ([IsoCLIP - CVPR 2026](https://arxiv.org/abs/2603.19862)).
   - Improving few-shot image classification using cross-modal prototypes exploiting a task-semantic image subspace ([Project and Mix - Preprint](https://arxiv.org/abs/2603.24528)).
 - **Continual Learning with VLMs:** a survey and taxonomy beyond forgetting ([Preprint](https://arxiv.org/pdf/2508.04227?)) and exploiting the semantic knowledge of pre-trained text-encoders ([Preprint](https://arxiv.org/pdf/2408.01076)).
 - **Data Attribution with Diffusion Models:** mirrored unlearning approach for training data attribution, i.e. tracing which training data influences a generated output ([MUCS - NeurIPS 2026](https://arxiv.org/pdf/2605.17938)).
