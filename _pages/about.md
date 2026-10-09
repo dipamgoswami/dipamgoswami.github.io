@@ -15,6 +15,9 @@ social: true # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher in the [Learning and Machine Perception (LAMP)](http://lamp.cvc.uab.es/) group at the [Computer Vision Center](https://www.cvc.uab.es/), Barcelona. I work on **Vision-Language Models (VLMs)** and **Multimodal Large Language Models (MLLMs)**, with a broader interest in **understanding and improving the representations** of large foundation models. I also work on **Continual Learning** which studies how deep learning models can keep learning from new data over time without forgetting what they already know, with a particular focus on understanding and controlling how their **embedding spaces** change as they learn.
 
+I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at the [Computer Vision Center](https://www.cvc.uab.es/), Universitat Autònoma de Barcelona, supervised by [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en) and [Bartłomiej Twardowski](https://scholar.google.com/citations?user=8yywECgAAAAJ&hl=en), with the thesis *Understanding the Embedding Space in Continual and Federated Learning*. Before that, I received a B.E. in Computer Science and an M.Sc. in Mathematics from [BITS Pilani](https://www.bits-pilani.ac.in/pilani/), India in 2022.
+
+
 #### Recent research
 
 My recent works focuses on multimodal and generative models: 
@@ -34,11 +37,6 @@ My PhD focused on how models learn when data is not available all at once: arriv
 - **Information Retrieval:** continual learning of dense retrieval embedding models that stay compatible with existing embedding indexes ([QDC - CoLLAs 2025](https://arxiv.org/pdf/2506.00037)).
 
 Before starting my PhD, I worked on continual learning for object detection ([ICCV 2023](https://arxiv.org/pdf/2307.12427)) and semantic segmentation ([WACV 2023](https://arxiv.org/pdf/2210.07207)), defect detection in SEM images ([SPIE Advanced Lithography 2022](https://arxiv.org/pdf/2206.13505)), cell detection from urine microscopic images ([ISBI 2023](https://arxiv.org/pdf/2211.06104), [UMID dataset](https://arxiv.org/pdf/2111.10374)) and graph-based approaches for generation of dimensioned floorplans ([AI EDAM 2021](https://www.cambridge.org/core/journals/ai-edam/article/abs/graphbased-approach-for-enumerating-floorplans-based-on-users-specifications/C1632000D36BD0D0C1FA9E44584F1F00), [SCCE 2024](https://www.jsoftcivil.com/article_196433.html)).
-
-#### Background
-
-I completed my [PhD](https://www.tdx.cat/handle/10803/697395) in April 2026 at the [Computer Vision Center](https://www.cvc.uab.es/), Universitat Autònoma de Barcelona, supervised by [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en) and [Bartłomiej Twardowski](https://scholar.google.com/citations?user=8yywECgAAAAJ&hl=en), with the thesis *Understanding the Embedding Space in Continual and Federated Learning*. Before that, I received a B.E. in Computer Science and an M.Sc. in Mathematics from [BITS Pilani](https://www.bits-pilani.ac.in/pilani/), India in 2022.
-
 
 #### Research visits and industry experience
 
