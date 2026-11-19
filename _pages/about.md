@@ -58,5 +58,5 @@ Before starting my PhD, I worked on continual learning for object detection ([IC
 - I co-organize the [CoLLAs Seminars](https://lifelong-ml.cc/seminar), a monthly online seminar series on lifelong learning launched in May 2026.
 
 
-**I am open to postdoctoral and research scientist positions starting in January 2027. Feel free to [reach out](mailto:dgoswami@cvc.uab.es).**
+
 
